@@ -1,0 +1,43 @@
+---
+title: "Introduction to Computational Reproducibility"
+subtitle: "claude_version_2"
+author: John Little
+format: revealjs
+---
+
+## subtitle
+
+Defining, Creating, and Engaging in Instructional Space at Duke University Libraries
+
+## Collaborative Project: Developing Video Modules
+
+## The People Behind the Project
+- Sophia Lafferty-Hess
+- John Little 
+- Shakiyla Huggins
+- Megan Lancaster
+- Tara Kramling
+- Mitch Donovan
+
+## The Output: YouTube Playlist and Duke Pathways
+
+## The Process: From Script to Production
+- Script writing
+- Script editing
+- Video production
+- Recording
+- Outsourced production (sound, graphics, editing)
+
+## Interactive Module Development: Challenges and Lessons Learned
+
+## Timeline and Collaboration Efforts
+
+## Pros and Cons of the Project
+- High production values
+- Polished product
+- Evidence of inter-division cooperation
+- Time-consuming
+- Over-produced videos
+- Production values vs. patron-centered approach
+
+## Reflections and Lessons Learned

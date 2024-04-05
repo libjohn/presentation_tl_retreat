@@ -1,0 +1,39 @@
+---
+title: "Defining, Creating, and Engaging in Instructional Space at Duke University Libraries"
+subtitle: "claude_version_1"
+author: "John Little"
+format: revealjs
+---
+
+## Slide 1: Introduction
+- Introduce yourself as a 30-year veteran of the academic research library community
+- Highlight your focus on delivering and leveraging technology in support of research and learning
+- Mention your early career experience assisting researchers in accessing electronic government publications
+- Discuss your transition to working in Systems Administration and your various roles (web developer, website manager, enterprise application developer, application team lead)
+- Explain your final transition back to public service as a data science librarian
+
+## Slide 2: Collaborative Project
+- Introduce your library colleague, Sophia Lafferty-Hess
+- Explain that you collaborated with Sophia on developing video modules aimed at undergraduates learning about computational reproducibility
+- Mention that your cooperative partner was the Duke University Learning and Innovation team
+- Highlight the team's role in providing advice on scripting and technical assistance with video production
+
+## Slide 3: Defining Instructional Space
+- Discuss how you and Sophia defined the instructional space for the video modules
+- Explain the key components or elements that you considered in defining the instructional space
+- Emphasize the importance of understanding the target audience (undergraduate students) and their learning needs
+
+## Slide 4: Creating Instructional Content
+- Describe the process of creating the video modules
+- Discuss the collaboration with the Duke University Learning and Innovation team
+- Highlight the strategies and best practices you and Sophia employed in developing the instructional content
+
+## Slide 5: Engaging with the Audience
+- Explain how you and Sophia engaged the target audience (undergraduate students) with the video modules
+- Discuss the feedback and insights you gathered from the students
+- Describe how you used this feedback to iterate and improve the instructional content
+
+## Slide 6: Conclusion
+- Summarize the key takeaways from your experience
+- Emphasize the importance of collaboration and leveraging institutional resources in developing effective instructional content
+- Encourage the audience (library professionals at Duke University Libraries) to consider similar approaches in their own instructional initiatives

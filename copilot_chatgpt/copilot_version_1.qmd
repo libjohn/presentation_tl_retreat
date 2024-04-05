@@ -1,0 +1,62 @@
+---
+title: "Collaborative Pathways: Navigating Computational Reproducibility"
+subtitle: copilot_version_1
+author: "John Little"
+format: revealjs
+---
+
+
+## Introduction (Title Slide)
+- **Cooperative Video Modules with DLI (LILE)**:
+    - Explore the collaborative journey in creating instructional content.
+    - Highlight the key players involved.
+
+## People
+- **Sophia Lafferty-Hess**:
+    - Your library colleague and collaborator.
+- **John Little**:
+    - Your partner in this endeavor.
+- **Shakiyla Huggins, Megan Lancaster, Tara Kramling, and Mitch Donovan**:
+    - Additional contributors to the project.
+
+## Output
+- **YouTube Playlist: [Computational Reproducibility](https://www.youtube.com/playlist?list=PLXsA_OlR0o0PcuagC_TUl32RULZkLHI1D)**:
+    - Nine videos of varying lengths (approximately 3 minutes each).
+- **Duke Pathways: [Computational Reproducibility](https://pathways.duke.edu/pathwaypage/47)**:
+    - A comprehensive resource for learners.
+
+## Process
+- **Script Writing and Editing**:
+    - Crafting effective narratives for video content.
+- **Video Production**:
+    - Recording and post-production.
+    - Outsourced collaboration with LILE and Duke Video production.
+- **Interactive Module Development**:
+    - An exploration of possibilities.
+    - Mixed results but a valuable experiment.
+- **Timeline**:
+    - Approximately two years from start to finish.
+    - Estimating two months of library labor (Sophia and John).
+
+## Pros
+- **High Production Values**:
+    - Beyond what the library can achieve independently.
+- **Polished Product**:
+    - A testament to collaboration.
+- **Evidence of Inter-Division Cooperation**:
+    - Fostering connections across departments.
+- **Contentment with the Videos**:
+    - A successful outcome.
+
+## Cons
+- **Time-Consuming**:
+    - The investment required.
+- **Over-Produced Videos?**:
+    - A reflection on instructional YouTube standards.
+- **Adherence to Library Public Service Ideals**:
+    - Balancing flexibility, focus, and accessibility.
+    - A loaded term, intentionally left undefined.
+- **Subject Matter Mismatch with Learning Modules Concept**:
+    - Unmet expectations.
+    - Lessons learned.
+    

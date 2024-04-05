@@ -1,0 +1,35 @@
+---
+title: "Collaborative Pathways: Navigating Computational Reproducibility"
+subtitle: copilot_version_2
+author: "John Little"
+format: revealjs
+---
+
+
+## 
+- Our journey in creating impactful instructional content.
+- Meet the team behind it.
+
+## **The Collaborative Process**
+- **Script Writing and Editing**:
+    - Crafting effective narratives for video content.
+    - Sophia Lafferty-Hess and John Little at the helm.
+- **Video Production**:
+    - Recording and post-production.
+    - Outsourced collaboration with LILE and Duke Video production.
+- **Interactive Module Development**:
+    - An exploration of possibilities.
+    - Undertaken largely by LILE with mixed results.
+    - A valuable experiment in concept alignment.
+
+## **Outcomes and Reflections**
+- **High Production Values**:
+    - Beyond what the library can achieve independently.
+    - Polished product for learners.
+- **Evidence of Inter-Division Cooperation**:
+    - Fostering connections across departments.
+    - **Happy with the videos**.
+- **Challenges and Lessons Learned**:
+    - Time investment and over-production considerations.
+    - Balancing production values with library ideals.
+    - Aligning subject matter with learning concepts.

@@ -1,0 +1,71 @@
+---
+title: "steps - copilot"
+author: "John Little"
+format: html
+---
+
+https://copilot.microsoft.com
+
+Creativity setting is set to medium
+
+
+## Prompt
+
+I would like your assitance on developing a slide deck outline.
+
+- I: am a 30 year veteran of the academic research library community.  I have focused on delivering and leveraging technology in support of research and learning.  In the early part of my career I assisted researchers in accessing electronic government publications.  I then transitioned to working in Systems Administration as a web developer; website manager; enterprise application developer; application team lead, and finally transitioned back to public service as a data science librarian.
+
+- Audience: will consist of library professionals in the Duke University Library system who all have responsibilities with teaching and learning.  They are interested in learning more about Defining, Creating, and Engaging in Instructional Space at Duke University Libraries.
+
+- Situation: I want to create slides for a five to seven minute talk that outlines my experience collaborating with my library colleague Sophia Lafferty-Hess on cooperatively developing video modules aimed at undergraduates learning about computational reproducibility.  Our cooperative partner was the Duke University Learning and Innovation team.  That team provided advice on scripting and provided technical assistance with video production.
+
+I want the output from the LLM to be in the Markdown format so that I can paste the slide content into Quarto and then generate a slide deck.
+
+
+## Output
+
+Certainly! Creating an engaging slide deck is crucial for effectively conveying your message to your audience. Let's outline the key components of your slide deck based on the information you've provided:
+
+1. **Introduction (Title Slide)**:
+    - Start with a clear and attention-grabbing title that reflects the main theme of your presentation.
+    - Include your name and position as a 30-year veteran of the academic research library community.
+
+2. **Your Background and Expertise**:
+    - Briefly introduce yourself and highlight your experience in the academic research library field.
+    - Mention your focus on technology, research support, and learning.
+
+3. **Audience Overview**:
+    - Describe your target audience: library professionals within the Duke University Library system.
+    - Emphasize their responsibilities related to teaching and learning.
+
+4. **Topic Introduction: Defining, Creating, and Engaging in Instructional Space**:
+    - Clearly state the topic of your talk.
+    - Explain why instructional space is important within the context of Duke University Libraries.
+
+5. **Collaboration Experience with Sophia Lafferty-Hess**:
+    - Introduce your library colleague, Sophia Lafferty-Hess.
+    - Describe how you both collaborated on developing video modules.
+    - Highlight the specific focus: computational reproducibility for undergraduates.
+
+6. **Role of Duke University Learning and Innovation Team**:
+    - Discuss the role of the Duke University Learning and Innovation team in your project.
+    - Mention their advice on scripting and technical assistance during video production.
+
+7. **Key Takeaways**:
+    - Summarize the main points you want your audience to remember.
+    - Reinforce the importance of instructional space and collaboration.
+
+8. **Conclusion**:
+    - End with a call to action or an invitation for further discussion.
+    - Provide your contact information for follow-up.
+
+Remember to keep your slides concise, visually appealing, and aligned with your narrative. Use visuals (such as images, diagrams, or icons) to enhance your message. Once you've outlined your content, you can easily convert it into Markdown format for Quarto. Good luck with your presentation! 🚀¹²³
+
+Feel free to adapt this outline to your specific needs and add any additional details that will make your presentation impactful.
+
+Source: Conversation with Bing, 4/5/2024
+(1) How to Make an Engaging Slide Deck (+Example & Templates). https://www.storydoc.com/blog/how-to-make-a-slide-deck.
+(2) How to create slide decks that don't put people to sleep. https://approachabledesign.co/articles/slide-deck-design.
+(3) What is a Slide Deck and how to create one - Slidebean. https://slidebean.com/blog/what-is-a-slide-deck-presentation.
+(4) 10 Slide Pitch Deck | Guy Kawasaki Inspired Slides | Pitch. https://pitch.com/templates/10-Slide-Pitch-Deck-0dh4WE6siodH4gWAjk0og4tB.
+(5) Pitch Deck Outline: 10 Must-Have Pitch Deck Slides - Visme. https://www.visme.co/blog/pitch-deck-outline/.

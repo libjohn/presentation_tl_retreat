@@ -1,0 +1,14 @@
+---
+title: "informal score"
+format: html
+---
+
+|                    | Claude         | copilot         | gemini                                   |
+|--------------------|----------------|-----------------|------------------------------------------|
+| Title              | 3              | 2               | 1                                        |
+| subtitle           | 1              | 2               | NA                                       |
+| slide 1 background | terse, robotic | flow, robotic,  | flow, hallucinate, corporate, dessicated |
+| slide on outcomes  |                | solid, lifeless |                                          |
+| process overview   | terse, robotic |                 |                                          |
+| image suggestions  | 0              | 0               | best                                     |
+| Best contribution  | 6 & 7          | 3 & 4           | 0                                        |

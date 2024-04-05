@@ -1,0 +1,99 @@
+---
+title: "Collaborating on Video Modules"
+subtitle: "Leveraging Expertise for Engaging Learning Experiences"
+author: "John Little"
+format: revealjs
+---
+
+# The team
+
+## The People Behind the Project
+
+::: columns
+::: {.column width="50%"}
+**CDVS**
+
+-   Sophia Lafferty-Hess - [Data Management (**Theory**)]{style="font-size: x-large; color: lightgray"}
+-   John Little - [Data Science (**Practice**)]{style="font-size: x-large; color: lightgray"}
+:::
+
+::: {.column width="50%"}
+**DLI (LILE)**
+
+-   Shakiyla Huggins [(Learning Experience **Designer**)]{style="font-size: x-large; color: lightgray"}
+-   Megan Lancaster [(**Senior** Learning Experience Designer)]{style="font-size: x-large; color: lightgray"}
+-   Tara Kramling [(Learning Experience **Producer**)]{style="font-size: x-large; color: lightgray"}
+-   Nick Janes [(Learning **Media Designer**)]{style="font-size: x-large; color: lightgray"}
+:::
+:::
+
+# The Process
+
+-   Script writing
+-   Script editing
+-   Video planning
+-   Recording
+-   Video production (sound, graphics, editing)
+
+<!--# https://mermaid.js.org/syntax/flowchart.html -->
+
+```{mermaid}
+%%| fig-width: 20
+flowchart LR
+  A[Script writing] <--> B[Script editing]
+  B <--> C[Video planning]
+  C --> D[Recording]
+  D --> E[Production]
+
+```
+
+# The Execution
+
+## Script Writing and Editing
+
+-   Crafting effective narratives for video content.
+
+- Sophia Lafferty-Hess and John Little at the helm [(the talent and content)]{style="color: lightgray"}
+
+-   Shakiyla and Megan: direction, guidance, and goals for modernizing learning content [(surfacing innovative learning ideas)]{style="color: lightgray"}
+
+## Video Planing, Production, & Recording
+
+-   Recording and post-production [(Tara and Nick)]{style="color: lightgray"}
+-   Outsourced collaboration with LILE [(production)]{style="color: lightgray"} and Duke Video production [(High-value studios)]{style="color: lightgray"}
+
+## Examples
+
+-   thumbnails
+
+## Interactive Module Development
+
+-   An exploration of possibilities (DLI)
+-   A valuable experiment in concept alignment
+
+# Outcomes and Reflections
+
+## High Production Values
+
+-   Beyond what the library can achieve independently
+-   Polished product for learners
+
+## Evidence of Inter-Division Cooperation
+
+-   Fostering connections across departments
+-   **Happy with the videos**
+
+## Challenges and Lessons Learned
+
+-   Time investment and over-production considerations
+-   Balancing production values with learning ideals
+-   Aligning subject matter with learning concepts
+
+# Pros and Cons of the Project
+
+-   High production values
+-   Polished product
+-   Evidence of inter-division cooperation
+-   Time-consuming
+-   Over-produced videos
+-   Production values vs. patron-centered approach

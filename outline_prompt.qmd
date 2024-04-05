@@ -1,0 +1,86 @@
+---
+title: "Outline & Prompt"
+author: "John Little"
+format: html
+---
+
+## Prompt
+
+### Roles
+
+- I: am a 30 year veteran of the academic research library community.  I have focused on delivering and leveraging technology in support of research and learning.  In the early part of my career I assisted researchers in accessing electronic government publications.  I then transitioned to working in Systems Administration as a web developer; website manager; enterprise application developer; application team lead, and finally transitioned back to public service as a data science librarian.
+
+- Audience: will consist of library professionals in the Duke University Library system who all have responsibilities with teaching and learning.  They are interested in learning more about Defining, Creating, and Engaging in Instructional Space at Duke University Libraries.
+
+- Situation: I want to create slides for a five to seven minute talk that outlines my experience collaborating with my library colleague Sophia Lafferty-Hess on cooperatively developing video modules aimed at undergraduates learning about computational reproducibility.  Our cooperative partner was the Duke University Learning and Innovation team.  That team provided advice on scripting and provided technical assistance with video production.
+
+I want the output from the LLM to be in the Markdown format so that I can paste the slide content into Quarto and then generate a slide deck.
+
+## Outline
+
+- Cooperative videos modules with DLI (LILE) 
+	- People
+		- Sophia Lafferty-Hess
+		- John Little
+		- Shakiyla Huggins
+		- Megan Lancaster
+		- Tara Kramling
+		- Mitch Donovan
+	- Output
+		- YouTube Playlist:  [Computational Reproducibility](https://www.youtube.com/playlist?list=PLXsA_OlR0o0PcuagC_TUl32RULZkLHI1D) 
+			- 3 minute videos -- nine videos of varying lengths
+		- Duke Pathways: [Computational Reproducibility](https://pathways.duke.edu/pathwaypage/47)
+	- Process
+		- Script writing
+		- Script editing
+		- Video production
+			- Recording
+			- *outsourced* production (sound; graphics, editing)
+				- Outsource was LILE and Duke Video production
+		- Interactive Module development
+			- Not my Jam
+			- Undertaken largely by LILE with mixed results
+			- May not work for every topic but it was an exercise in proving a concept
+		- Timeline
+			- approximately two years elapsed time
+			- estimating two months library labor - 1 each for Sophia and John
+	- Pros
+		- High production values - higher than we can easily do in the library
+		- Polished product
+		- Evidence of inter-division cooperation
+		- **Happy with the videos**
+	- Cons
+		- Time consuming
+		- Over produced videos[?]
+			- Production values for instructional YouTube videos is vastly over-rated 
+		- Outputs could reflect a higher adherence to my ideals of *Library public service*
+			- *patron-centered*: flexible, focus, accessibility
+			- WARNING: Intentional use a loaded term
+				- I reserve the right to know what I mean with respect to the term, without concern or prejudice regarding your perception
+				- I have no intention of defining it
+		- Subject matter mismatch with Learning Modules **concept** 
+			- did not meet my expectations nor was it part of my interest
+			- YMMV
+			
+### Main headings
+
+- Summary overview
+- List organizations/divisions involved
+- List people involved
+- Preview screen shot or thumbnail sample of the output 
+- Summary of collaborative process steps
+- Pros and Cons of the process
+- Perceptions of the final product
+
+
+## LLM Targets
+
+- https://copilot.microsoft.com
+- https://claude.ai
+- https://gemini.google.com
+
+## Perl Growing
+
+1. Define for LLM the roles (speaker, audience, situation) and goals.
+2. Request slide headings output to be in Markdown format
+3. Request slide details to be added and provided in Markdown format

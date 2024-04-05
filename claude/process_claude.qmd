@@ -1,0 +1,26 @@
+---
+title: "steps - claude.ai"
+author: "John Little"
+format: html
+---
+
+https://claude.ai
+
+## Prompt
+
+I would like your assitance on developing a slide deck outline.
+
+-   I: am a 30 year veteran of the academic research library community. I have focused on delivering and leveraging technology in support of research and learning. In the early part of my career I assisted researchers in accessing electronic government publications. I then transitioned to working in Systems Administration as a web developer; website manager; enterprise application developer; application team lead, and finally transitioned back to public service as a data science librarian.
+
+-   Audience: will consist of library professionals in the Duke University Library system who all have responsibilities with teaching and learning. They are interested in learning more about Defining, Creating, and Engaging in Instructional Space at Duke University Libraries.
+
+-   Situation: I want to create slides for a five to seven minute talk that outlines my experience collaborating with my library colleague Sophia Lafferty-Hess on cooperatively developing video modules aimed at undergraduates learning about computational reproducibility. Our cooperative partner was the Duke University Learning and Innovation team. That team provided advice on scripting and provided technical assistance with video production.
+
+I want the output from the LLM to be in the Markdown format so that I can paste the slide content into Quarto and then generate a slide deck.
+
+## Output
+
+
+## modification:
+
+Great. Now I have some background information and I want to you to use the background information, and what you already know, to give me only slide titles. You will need to merge the background information with the scenario I've defined.

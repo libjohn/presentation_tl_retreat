@@ -1,0 +1,90 @@
+---
+title: "Collaborating on Video Modules: A Librarian's Perspective"
+subtitle: "Gemini_ver2"
+author: "John Little"
+format: revealjs
+---
+
+## Subtitle Slide
+
+Leveraging Expertise for Engaging Learning Experiences
+
+-   Image: (Consider using an image of a library or classroom setting with technology integration)
+
+
+Note:  Gemini gave nice suggestions about background images for the slides
+
+
+
+## Building a Culture of Collaboration
+
+* I am a 30-year veteran of the academic research library community. 
+* My focus has been on delivering and leveraging technology in support of research and learning.
+* My career path has included electronic resources, web development, and data science librarianship.
+
+::: {.notes}
+*Speaker Notes*
+Throughout my career, I've seen the power of technology in supporting research and learning. In this spirit, I'm always looking for collaborative opportunities to create impactful learning experiences.
+:::
+
+## Educating Undergraduates in Computational Reproducibility
+
+* In collaboration with colleague Sophia Lafferty-Hess, I developed video modules focused on computational reproducibility.
+* These modules target undergraduate researchers.
+* The focus is on the importance of computational reproducibility in research.
+
+::: {.notes}
+*Speaker Notes*
+For this project, I partnered with my colleague Sophia Lafferty-Hess to develop video modules focused on computational reproducibility for undergraduate researchers. 
+:::
+
+
+## Combining Expertise for Success
+
+* The success of this project hinged on leveraging our combined expertise.
+* My data science background provided insights on research design and data analysis.
+* Sophia's expertise in (mention Sophia's field) enriched the content.
+* We shared responsibility for scripting and content development.
+
+::: {.notes}
+*Speaker Notes*
+Our success hinged on leveraging our combined expertise.  My data science background provided insights on research design and data analysis, while Sophia's expertise in (mention Sophia's field) enriched the content.  We shared scriptwriting and content development responsibilities.
+:::
+
+## Partnering with Duke Learning & Innovation
+
+* An invaluable partner in this project was the Duke University Learning and Innovation team.
+* They provided guidance on scripting and video production.
+* Their expertise enhanced the overall quality of the learning modules.
+
+::: {.notes}
+*Speaker Notes*
+An invaluable partner in this project was the Duke University Learning and Innovation team.  Their expertise in scripting and video production significantly enhanced the quality and engagement factor of our video modules. 
+:::
+
+## Collaboration: A Recipe for Success
+
+* This project solidified the importance of teamwork in developing engaging learning materials.
+* By leveraging the expertise of colleagues and support services at Duke Libraries, we were able to create impactful learning experiences.
+* A collaborative approach fosters impactful learning experiences for students.
+
+::: {.notes}
+*Speaker Notes*
+This project solidified the importance of collaboration in developing impactful learning materials.  By leveraging the expertise of colleagues and support services like Duke Learning and Innovation, we were able to create engaging video modules that will benefit undergraduate researchers. 
+:::
+
+## Thank You!
+
+* Title: Thank You!
+* Bullet Points: 
+   * Q&A Welcome
+
+::: {.notes}
+*Speaker Notes*
+Thank you for your time. I'm happy to answer any questions you may have.
+        
+**Additional Notes**
+
+* Feel free to adjust the content based on your specific project details and Sophia's area of expertise. 
+* You can find royalty-free images on websites like Unsplash: [https://unsplash.com/](https://unsplash.com/) or Pexels: [https://www.pexels.com/](https://www.pexels.com/).    
+:::
