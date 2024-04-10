@@ -1,50 +1,65 @@
 ---
 title: "Collaborating on Video Modules"
-subtitle: "Leveraging Expertise for Engaging Learning Experiences"
+subtitle: "Leveraging expertise for engaging learning experiences"
 author: "John Little"
 format: revealjs
 ---
 
 # The team
 
-## The People Behind the Project
+## The people behind the project
 
 ::: columns
 ::: {.column width="50%"}
 **CDVS**
 
--   Sophia Lafferty-Hess - [Data Management (**Theory**)]{style="font-size: x-large; color: lightgray"}
--   John Little - [Data Science (**Practice**)]{style="font-size: x-large; color: lightgray"}
+-   Sophia Lafferty-Hess\
+    [Data Management (**Theory**)]{style="font-size: x-large; color: lightgray"}
+-   John Little\
+    [Data Science (**Practice**)]{style="font-size: x-large; color: lightgray"}
 :::
 
 ::: {.column width="50%"}
 **DLI (LILE)**
 
--   Shakiyla Huggins [(Learning Experience **Designer**)]{style="font-size: x-large; color: lightgray"}
--   Megan Lancaster [(**Senior** Learning Experience Designer)]{style="font-size: x-large; color: lightgray"}
--   Tara Kramling [(Learning Experience **Producer**)]{style="font-size: x-large; color: lightgray"}
--   Nick Janes [(Learning **Media Designer**)]{style="font-size: x-large; color: lightgray"}
+-   Shakiyla Huggins\
+    [(Learning Experience **Designer**)]{style="font-size: x-large; color: lightgray"}
+-   Megan Lancaster\
+    [(**Senior** Learning Experience Designer)]{style="font-size: x-large; color: lightgray"}
+-   Tara Kramling\
+    [(Learning Experience **Producer**)]{style="font-size: x-large; color: lightgray"}
+-   Nick Janes\
+    [(Learning **Media Designer**)]{style="font-size: x-large; color: lightgray"}
 :::
 :::
 
 # The Process
 
+##
+
 -   Script writing
 -   Script editing
 -   Video planning
 -   Recording
--   Video production (sound, graphics, editing)
+-   Video production [(sound, graphics, editing)]{style="color: lightgray"}
 
 <!--# https://mermaid.js.org/syntax/flowchart.html -->
 
 ```{mermaid}
 %%| fig-width: 20
 flowchart LR
-  A[Script writing] <--> B[Script editing]
-  B <--> C[Video planning]
-  C --> D[Recording]
-  D --> E[Production]
-
+  subgraph box1[Iterative]
+  A[Script writing]:::greybox <--> B[Script editing]:::greybox
+  B <--> C[Video planning]:::greybox
+  end
+  subgraph box2[Outsource]
+  C --> D[Recording]:::greybox
+  D --> E[Production]:::greybox
+  end
+  style box1 fill:#FFFFCC
+  style box2 fill:#FFFFCC
+  linkStyle default stroke: black
+  classDef greybox fill:#ECECEC
 ```
 
 # The Execution
@@ -53,19 +68,56 @@ flowchart LR
 
 -   Crafting effective narratives for video content.
 
--   Sophia Lafferty-Hess and John Little at the helm [(the talent and content)]{style="color: lightgray"}
+-   Sophia Lafferty-Hess and John Little at the helm\
+[(talent and content)]{style="color: lightgray"}
 
--   Shakiyla and Megan: direction, guidance, and goals [(surfacing innovative learning ideas)]{style="color: lightgray"}
+-   Shakiyla and Megan: direction, guidance, and goals\
+[(surfacing innovative learning ideas)]{style="color: lightgray"}
 
-## Video Planing, Production, & Recording
+```{mermaid}
+%%| fig-width: 20
+flowchart LR
+  subgraph box1[Iterative]
+  A[Script writing]:::highlight <--> B[Script editing]:::highlight
+  B <--> C[Video planning]:::greybox
+  end
+  subgraph box2[Outsource]
+  C --> D[Recording]:::greybox
+  D --> E[Production]:::greybox
+  end
+  style box1 fill:#FFFFCC
+  style box2 fill:#FFFFCC
+  linkStyle default stroke: black
+  classDef highlight fill:#F96
+  classDef greybox fill:#ECECEC
+```
+
+## Video Planing, Recording, & Production
 
 -   Recording and post-production [(Tara and Nick)]{style="color: lightgray"}
--   Outsourced collaboration with LILE [(production)]{style="color: lightgray"} and Duke Video production [(High-value studios)]{style="color: lightgray"}
+-   Outsourced with LILE and Duke Video production 
+
+```{mermaid}
+%%| fig-width: 20
+flowchart LR
+  subgraph box1[Iterative]
+  A[Script writing]:::greybox <--> B[Script editing]:::greybox
+  B <--> C[Video planning]:::highlight
+  end
+  subgraph box2[Outsource]
+  C --> D[Recording]:::highlight
+  D --> E[Production]:::highlight
+  end
+  style box1 fill:#FFFFCC
+  style box2 fill:#FFFFCC
+  linkStyle default stroke: black
+  classDef highlight fill:#F96
+  classDef greybox fill:#ECECEC
+```
 
 ## Examples
 
-![Reproducibility](images/01%20What%20Is%20Reproducibility.png){width="400"} ![Project Managment](images/03 Project Management Foundations.png){width="400"}
-![Version Control](images/04%20Version-control.png){width="400"} ![data archiving and publishing](images/08%20Data%20archiving%20and%20publishing.png){width="400"}
+![Reproducibility](images/01%20What%20Is%20Reproducibility.png){width="400"} ![Project Managment](images/03%20Project%20Management%20Foundations.png){width="400"} ![Version Control](images/04%20Version-control.png){width="400"} ![data archiving and publishing](images/08%20Data%20archiving%20and%20publishing.png){width="400"}
 
 ## Interactive Module Development
 
@@ -84,9 +136,10 @@ flowchart LR
 -   Fostering connections across Duke
 -   **Happy with the videos**
 
-# Challenges and Lessons Learned
+# Challenges and Lessons
 
--   Time investment and over-production considerations
+##
+
+-   Time investment and production considerations
 -   Balancing production values with learning ideals
 -   Aligning subject matter with learning concepts
-

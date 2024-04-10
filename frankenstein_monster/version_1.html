@@ -330,7 +330,7 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Collaborating on Video Modules</h1>
-  <p class="subtitle">Leveraging Expertise for Engaging Learning Experiences</p>
+  <p class="subtitle">Leveraging expertise for engaging learning experiences</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -347,33 +347,44 @@ John Little
 
 </section>
 <section id="the-people-behind-the-project" class="slide level2">
-<h2>The People Behind the Project</h2>
+<h2>The people behind the project</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><strong>CDVS</strong></p>
 <ul>
-<li>Sophia Lafferty-Hess - <span style="font-size: x-large; color: lightgray">Data Management (<strong>Theory</strong>)</span></li>
-<li>John Little - <span style="font-size: x-large; color: lightgray">Data Science (<strong>Practice</strong>)</span></li>
+<li>Sophia Lafferty-Hess<br>
+<span style="font-size: x-large; color: lightgray">Data Management (<strong>Theory</strong>)</span></li>
+<li>John Little<br>
+<span style="font-size: x-large; color: lightgray">Data Science (<strong>Practice</strong>)</span></li>
 </ul>
 </div><div class="column" style="width:50%;">
 <p><strong>DLI (LILE)</strong></p>
 <ul>
-<li>Shakiyla Huggins <span style="font-size: x-large; color: lightgray">(Learning Experience <strong>Designer</strong>)</span></li>
-<li>Megan Lancaster <span style="font-size: x-large; color: lightgray">(<strong>Senior</strong> Learning Experience Designer)</span></li>
-<li>Tara Kramling <span style="font-size: x-large; color: lightgray">(Learning Experience <strong>Producer</strong>)</span></li>
-<li>Nick Janes <span style="font-size: x-large; color: lightgray">(Learning <strong>Media Designer</strong>)</span></li>
+<li>Shakiyla Huggins<br>
+<span style="font-size: x-large; color: lightgray">(Learning Experience <strong>Designer</strong>)</span></li>
+<li>Megan Lancaster<br>
+<span style="font-size: x-large; color: lightgray">(<strong>Senior</strong> Learning Experience Designer)</span></li>
+<li>Tara Kramling<br>
+<span style="font-size: x-large; color: lightgray">(Learning Experience <strong>Producer</strong>)</span></li>
+<li>Nick Janes<br>
+<span style="font-size: x-large; color: lightgray">(Learning <strong>Media Designer</strong>)</span></li>
 </ul>
 </div>
 </div>
 </section></section>
+<section>
 <section id="the-process" class="title-slide slide level1 center">
 <h1>The Process</h1>
+
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
 <ul>
 <li>Script writing</li>
 <li>Script editing</li>
 <li>Video planning</li>
 <li>Recording</li>
-<li>Video production (sound, graphics, editing)</li>
+<li>Video production <span style="color: lightgray">(sound, graphics, editing)</span></li>
 </ul>
 <!--# https://mermaid.js.org/syntax/flowchart.html -->
 <div class="cell" data-reveal="true" data-fig-width="20" data-layout-align="default">
@@ -382,19 +393,25 @@ John Little
 <p></p><figure class=""><p></p>
 <div>
 <pre class="mermaid mermaid-js">flowchart LR
-  A[Script writing] &lt;--&gt; B[Script editing]
-  B &lt;--&gt; C[Video planning]
-  C --&gt; D[Recording]
-  D --&gt; E[Production]
-
+  subgraph box1[Iterative]
+  A[Script writing]:::greybox &lt;--&gt; B[Script editing]:::greybox
+  B &lt;--&gt; C[Video planning]:::greybox
+  end
+  subgraph box2[Outsource]
+  C --&gt; D[Recording]:::greybox
+  D --&gt; E[Production]:::greybox
+  end
+  style box1 fill:#FFFFCC
+  style box2 fill:#FFFFCC
+  linkStyle default stroke: black
+  classDef greybox fill:#ECECEC
 </pre>
 </div>
 <p></p></figure><p></p>
 </div>
 </div>
 </div>
-</section>
-
+</section></section>
 <section>
 <section id="the-execution" class="title-slide slide level1 center">
 <h1>The Execution</h1>
@@ -404,16 +421,68 @@ John Little
 <h2>Script Writing and Editing</h2>
 <ul>
 <li><p>Crafting effective narratives for video content.</p></li>
-<li><p>Sophia Lafferty-Hess and John Little at the helm <span style="color: lightgray">(the talent and content)</span></p></li>
-<li><p>Shakiyla and Megan: direction, guidance, and goals <span style="color: lightgray">(surfacing innovative learning ideas)</span></p></li>
+<li><p>Sophia Lafferty-Hess and John Little at the helm<br>
+<span style="color: lightgray">(talent and content)</span></p></li>
+<li><p>Shakiyla and Megan: direction, guidance, and goals<br>
+<span style="color: lightgray">(surfacing innovative learning ideas)</span></p></li>
 </ul>
+<div class="cell" data-reveal="true" data-fig-width="20" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  subgraph box1[Iterative]
+  A[Script writing]:::highlight &lt;--&gt; B[Script editing]:::highlight
+  B &lt;--&gt; C[Video planning]:::greybox
+  end
+  subgraph box2[Outsource]
+  C --&gt; D[Recording]:::greybox
+  D --&gt; E[Production]:::greybox
+  end
+  style box1 fill:#FFFFCC
+  style box2 fill:#FFFFCC
+  linkStyle default stroke: black
+  classDef highlight fill:#F96
+  classDef greybox fill:#ECECEC
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 </section>
-<section id="video-planing-production-recording" class="slide level2">
-<h2>Video Planing, Production, &amp; Recording</h2>
+<section id="video-planing-recording-production" class="slide level2">
+<h2>Video Planing, Recording, &amp; Production</h2>
 <ul>
 <li>Recording and post-production <span style="color: lightgray">(Tara and Nick)</span></li>
-<li>Outsourced collaboration with LILE <span style="color: lightgray">(production)</span> and Duke Video production <span style="color: lightgray">(High-value studios)</span></li>
+<li>Outsourced with LILE and Duke Video production</li>
 </ul>
+<div class="cell" data-reveal="true" data-fig-width="20" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  subgraph box1[Iterative]
+  A[Script writing]:::greybox &lt;--&gt; B[Script editing]:::greybox
+  B &lt;--&gt; C[Video planning]:::highlight
+  end
+  subgraph box2[Outsource]
+  C --&gt; D[Recording]:::highlight
+  D --&gt; E[Production]:::highlight
+  end
+  style box1 fill:#FFFFCC
+  style box2 fill:#FFFFCC
+  linkStyle default stroke: black
+  classDef highlight fill:#F96
+  classDef greybox fill:#ECECEC
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 </section>
 <section id="examples" class="slide level2">
 <h2>Examples</h2>
@@ -445,10 +514,15 @@ John Little
 <li><strong>Happy with the videos</strong></li>
 </ul>
 </section></section>
-<section id="challenges-and-lessons-learned" class="title-slide slide level1 center">
-<h1>Challenges and Lessons Learned</h1>
+<section>
+<section id="challenges-and-lessons" class="title-slide slide level1 center">
+<h1>Challenges and Lessons</h1>
+
+</section>
+<section id="section-1" class="slide level2">
+<h2></h2>
 <ul>
-<li>Time investment and over-production considerations</li>
+<li>Time investment and production considerations</li>
 <li>Balancing production values with learning ideals</li>
 <li>Aligning subject matter with learning concepts</li>
 </ul>
@@ -457,7 +531,7 @@ John Little
 
 </div>
 </div>
-</section>
+</section></section>
     </div>
   </div>
 
