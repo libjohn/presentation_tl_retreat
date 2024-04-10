@@ -53,9 +53,9 @@ flowchart LR
 
 -   Crafting effective narratives for video content.
 
-- Sophia Lafferty-Hess and John Little at the helm [(the talent and content)]{style="color: lightgray"}
+-   Sophia Lafferty-Hess and John Little at the helm [(the talent and content)]{style="color: lightgray"}
 
--   Shakiyla and Megan: direction, guidance, and goals for modernizing learning content [(surfacing innovative learning ideas)]{style="color: lightgray"}
+-   Shakiyla and Megan: direction, guidance, and goals [(surfacing innovative learning ideas)]{style="color: lightgray"}
 
 ## Video Planing, Production, & Recording
 
@@ -64,7 +64,8 @@ flowchart LR
 
 ## Examples
 
--   thumbnails
+![Reproducibility](images/01%20What%20Is%20Reproducibility.png){width="400"} ![Project Managment](images/03 Project Management Foundations.png){width="400"}
+![Version Control](images/04%20Version-control.png){width="400"} ![data archiving and publishing](images/08%20Data%20archiving%20and%20publishing.png){width="400"}
 
 ## Interactive Module Development
 
@@ -75,25 +76,17 @@ flowchart LR
 
 ## High Production Values
 
--   Beyond what the library can achieve independently
+-   Beyond what general library staff typically produce
 -   Polished product for learners
 
 ## Evidence of Inter-Division Cooperation
 
--   Fostering connections across departments
+-   Fostering connections across Duke
 -   **Happy with the videos**
 
-## Challenges and Lessons Learned
+# Challenges and Lessons Learned
 
 -   Time investment and over-production considerations
 -   Balancing production values with learning ideals
 -   Aligning subject matter with learning concepts
 
-# Pros and Cons of the Project
-
--   High production values
--   Polished product
--   Evidence of inter-division cooperation
--   Time-consuming
--   Over-produced videos
--   Production values vs. patron-centered approach
