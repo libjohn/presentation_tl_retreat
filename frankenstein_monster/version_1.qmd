@@ -25,7 +25,7 @@ format:
     # transition: fade
     # background-transition: fade
     theme: [moon]
-    # self-contained: true  
+    self-contained: true
     footer:  "[Center for Data & Visualization Sciences](https://library.duke.edu/data/) ● [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
     logo: images/rfun_logo.png
 license: "CC BY"
