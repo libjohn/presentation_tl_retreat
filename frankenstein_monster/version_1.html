@@ -7,10 +7,12 @@
 <link href="version_1_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="version_1_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="version_1_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="version_1_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="version_1_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.4.549">
 
   <meta name="author" content="John Little">
+  <meta name="author" content="Sophia Lafferty-Hess">
+  <meta name="dcterms.date" content="2024-04-11">
   <title>Collaborating on Video Modules</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -324,7 +326,7 @@
   <script src="version_1_files/libs/quarto-diagram/mermaid-init.js"></script>
   <link href="version_1_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
-<body class="quarto-light">
+<body class="quarto-dark">
   <div class="reveal">
     <div class="slides">
 
@@ -335,11 +337,28 @@
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-John Little 
+John Little <a href="https://orcid.org/0000-0002-3600-0972" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
 </div>
+        <p class="quarto-title-affiliation">
+            <a href="https://library.duke.edu/data">
+            Duke University Libraries
+            </a>
+          </p>
+        <p class="quarto-title-affiliation">
+            Center for Data &amp; Visualization Sciences
+          </p>
+    </div>
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Sophia Lafferty-Hess <a href="https://orcid.org/0000-0002-8343-3279" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
 </div>
+        <p class="quarto-title-affiliation">
+            Duke University Libraries
+          </p>
+    </div>
 </div>
 
+  <p class="date">2024-04-11</p>
 </section>
 <section>
 <section id="the-team" class="title-slide slide level1 center">
@@ -357,17 +376,22 @@ John Little
 <li>John Little<br>
 <span style="font-size: x-large; color: lightgray">Data Science (<strong>Practice</strong>)</span></li>
 </ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/devil-missing-photo-small.jpg" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
 </div><div class="column" style="width:50%;">
-<p><strong>DLI (LILE)</strong></p>
+<p><strong>LILE (formerly DLI)</strong></p>
 <ul>
-<li>Shakiyla Huggins<br>
-<span style="font-size: x-large; color: lightgray">(Learning Experience <strong>Designer</strong>)</span></li>
 <li>Megan Lancaster<br>
-<span style="font-size: x-large; color: lightgray">(<strong>Senior</strong> Learning Experience Designer)</span></li>
+<span style="font-size: large; color: lightgray">(<strong>Project Manager</strong>; <strong>Sr.</strong> Learning Experience Designer)</span></li>
+<li>Shakiyla Huggins<br>
+<span style="font-size: large; color: lightgray">(Learning Experience <strong>Designer</strong>)</span></li>
 <li>Tara Kramling<br>
-<span style="font-size: x-large; color: lightgray">(Learning Experience <strong>Producer</strong>)</span></li>
+<span style="font-size: large; color: lightgray">(Learning Experience <strong>Producer</strong>)</span></li>
 <li>Nick Janes<br>
-<span style="font-size: x-large; color: lightgray">(Learning <strong>Media Designer</strong>)</span></li>
+<span style="font-size: large; color: lightgray">(Learning <strong>Media Designer</strong>)</span></li>
 </ul>
 </div>
 </div>
@@ -418,7 +442,7 @@ John Little
 
 </section>
 <section id="script-writing-and-editing" class="slide level2">
-<h2>Script Writing and Editing</h2>
+<h2>Script writing and editing</h2>
 <ul>
 <li><p>Crafting effective narratives for video content.</p></li>
 <li><p>Sophia Lafferty-Hess and John Little at the helm<br>
@@ -453,10 +477,10 @@ John Little
 </div>
 </section>
 <section id="video-planing-recording-production" class="slide level2">
-<h2>Video Planing, Recording, &amp; Production</h2>
+<h2>Video planing, recording, &amp; production</h2>
 <ul>
 <li>Recording and post-production <span style="color: lightgray">(Tara and Nick)</span></li>
-<li>Outsourced with LILE and Duke Video production</li>
+<li>Outsourced with LILE and Bryan Center Studios</li>
 </ul>
 <div class="cell" data-reveal="true" data-fig-width="20" data-layout-align="default">
 <div class="cell-output-display">
@@ -486,12 +510,17 @@ John Little
 </section>
 <section id="examples" class="slide level2">
 <h2>Examples</h2>
-<p><img data-src="images/01%20What%20Is%20Reproducibility.png" width="400" alt="Reproducibility"> <img data-src="images/03%20Project%20Management%20Foundations.png" width="400" alt="Project Managment"> <img data-src="images/04%20Version-control.png" width="400" alt="Version Control"> <img data-src="images/08%20Data%20archiving%20and%20publishing.png" width="400" alt="data archiving and publishing"></p>
+<p><img data-src="images/01%20What%20Is%20Reproducibility.png" width="200" alt="Reproducibility"> <img data-src="images/03%20Project%20Management%20Foundations.png" width="200" alt="Project Managment"> <img data-src="images/04%20Version-control.png" width="200" alt="Version Control"> <img data-src="images/08%20Data%20archiving%20and%20publishing.png" width="200" alt="data archiving and publishing"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/yt_playlist.png" class="quarto-figure quarto-figure-center" width="500"></p>
+</figure>
+</div>
 </section>
 <section id="interactive-module-development" class="slide level2">
-<h2>Interactive Module Development</h2>
+<h2>Interactive module development</h2>
 <ul>
-<li>An exploration of possibilities (DLI)</li>
+<li>An exploration of possibilities (LILE)</li>
 <li>A valuable experiment in concept alignment</li>
 </ul>
 </section></section>
@@ -501,34 +530,45 @@ John Little
 
 </section>
 <section id="high-production-values" class="slide level2">
-<h2>High Production Values</h2>
-<ul>
-<li>Beyond what general library staff typically produce</li>
-<li>Polished product for learners</li>
-</ul>
+<h2>High production values</h2>
+<p><br>
+</p>
+<p><br>
+</p>
+<p>Beyond the norm</p>
+<p><br>
+Polished resources for learners</p>
 </section>
-<section id="evidence-of-inter-division-cooperation" class="slide level2">
-<h2>Evidence of Inter-Division Cooperation</h2>
-<ul>
-<li>Fostering connections across Duke</li>
-<li><strong>Happy with the videos</strong></li>
-</ul>
+<section id="interdivisional-cooperation" class="slide level2">
+<h2>Interdivisional cooperation</h2>
+<p><br>
+</p>
+<p><br>
+</p>
+<p>Fostering connections across Duke</p>
+<p><br>
+<strong>Happy with the videos</strong></p>
 </section></section>
 <section>
-<section id="challenges-and-lessons" class="title-slide slide level1 center">
-<h1>Challenges and Lessons</h1>
+<section id="lessons-and-challenges" class="title-slide slide level1 center">
+<h1>Lessons and Challenges</h1>
 
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
+<p><br>
+</p>
+<p><br>
+</p>
 <ul>
-<li>Time investment and production considerations</li>
-<li>Balancing production values with learning ideals</li>
-<li>Aligning subject matter with learning concepts</li>
+<li><p>Time investment and production considerations</p></li>
+<li><p>Balancing production values with learning ideals</p></li>
+<li><p>Aligning subject matter with learning concepts</p></li>
 </ul>
 <div class="quarto-auto-generated-content">
+<p><img src="images/rfun_logo.png" class="slide-logo"></p>
 <div class="footer footer-default">
-
+<p><a href="https://library.duke.edu/data/">Center for Data &amp; Visualization Sciences</a> ● <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
 </div>
 </div>
 </section></section>

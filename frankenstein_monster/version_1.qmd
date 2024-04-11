@@ -1,8 +1,36 @@
 ---
 title: "Collaborating on Video Modules"
-subtitle: "Leveraging expertise for engaging learning experiences"
-author: "John Little"
-format: revealjs
+subtitle: "Leveraging expertise for engaging learning experiences" 
+author: 
+  - name: John Little
+    orcid: 0000-0002-3600-0972
+    affiliation:
+      - name: Duke University Libraries
+        department: Center for Data & Visualization Sciences
+        city: Durham
+        state: NC
+        country: US
+        url:  https://library.duke.edu/data
+  - name: Sophia Lafferty-Hess
+    orcid: 0000-0002-8343-3279
+    affiliation:
+      - name: Duke University Libraries
+        department: Center for Data & Vizualization Sciences  
+institute: "Center for Data & Visualization Sciences"          
+date: today
+
+format: 
+  revealjs:
+    #center: true
+    # transition: fade
+    # background-transition: fade
+    theme: [moon]
+    # self-contained: true  
+    footer:  "[Center for Data & Visualization Sciences](https://library.duke.edu/data/) ● [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+    logo: images/rfun_logo.png
+license: "CC BY"
+
+editor: visual
 ---
 
 # The team
@@ -17,25 +45,27 @@ format: revealjs
     [Data Management (**Theory**)]{style="font-size: x-large; color: lightgray"}
 -   John Little\
     [Data Science (**Practice**)]{style="font-size: x-large; color: lightgray"}
+
+![](images/devil-missing-photo-small.jpg){fig-align="center"}
 :::
 
 ::: {.column width="50%"}
-**DLI (LILE)**
+**LILE (formerly DLI)**
 
--   Shakiyla Huggins\
-    [(Learning Experience **Designer**)]{style="font-size: x-large; color: lightgray"}
 -   Megan Lancaster\
-    [(**Senior** Learning Experience Designer)]{style="font-size: x-large; color: lightgray"}
+    [(**Project Manager**; **Sr.** Learning Experience Designer)]{style="font-size: large; color: lightgray"}
+-   Shakiyla Huggins\
+    [(Learning Experience **Designer**)]{style="font-size: large; color: lightgray"}
 -   Tara Kramling\
-    [(Learning Experience **Producer**)]{style="font-size: x-large; color: lightgray"}
+    [(Learning Experience **Producer**)]{style="font-size: large; color: lightgray"}
 -   Nick Janes\
-    [(Learning **Media Designer**)]{style="font-size: x-large; color: lightgray"}
+    [(Learning **Media Designer**)]{style="font-size: large; color: lightgray"}
 :::
 :::
 
 # The Process
 
-##
+## 
 
 -   Script writing
 -   Script editing
@@ -64,15 +94,15 @@ flowchart LR
 
 # The Execution
 
-## Script Writing and Editing
+## Script writing and editing
 
 -   Crafting effective narratives for video content.
 
 -   Sophia Lafferty-Hess and John Little at the helm\
-[(talent and content)]{style="color: lightgray"}
+    [(talent and content)]{style="color: lightgray"}
 
 -   Shakiyla and Megan: direction, guidance, and goals\
-[(surfacing innovative learning ideas)]{style="color: lightgray"}
+    [(surfacing innovative learning ideas)]{style="color: lightgray"}
 
 ```{mermaid}
 %%| fig-width: 20
@@ -92,10 +122,10 @@ flowchart LR
   classDef greybox fill:#ECECEC
 ```
 
-## Video Planing, Recording, & Production
+## Video planing, recording, & production
 
 -   Recording and post-production [(Tara and Nick)]{style="color: lightgray"}
--   Outsourced with LILE and Duke Video production 
+-   Outsourced with LILE and Bryan Center Studios
 
 ```{mermaid}
 %%| fig-width: 20
@@ -117,29 +147,49 @@ flowchart LR
 
 ## Examples
 
-![Reproducibility](images/01%20What%20Is%20Reproducibility.png){width="400"} ![Project Managment](images/03%20Project%20Management%20Foundations.png){width="400"} ![Version Control](images/04%20Version-control.png){width="400"} ![data archiving and publishing](images/08%20Data%20archiving%20and%20publishing.png){width="400"}
+![Reproducibility](images/01%20What%20Is%20Reproducibility.png){width="200"} ![Project Managment](images/03%20Project%20Management%20Foundations.png){width="200"} ![Version Control](images/04%20Version-control.png){width="200"} ![data archiving and publishing](images/08%20Data%20archiving%20and%20publishing.png){width="200"}
 
-## Interactive Module Development
+![](images/yt_playlist.png){fig-align="center" width="500"}
 
--   An exploration of possibilities (DLI)
+## Interactive module development
+
+-   An exploration of possibilities (LILE)
 -   A valuable experiment in concept alignment
 
 # Outcomes and Reflections
 
-## High Production Values
+## High production values
 
--   Beyond what general library staff typically produce
--   Polished product for learners
+\
 
-## Evidence of Inter-Division Cooperation
+\
 
--   Fostering connections across Duke
--   **Happy with the videos**
+Beyond the norm
 
-# Challenges and Lessons
+\
+Polished resources for learners
 
-##
+## Interdivisional cooperation
+
+\
+
+\
+
+Fostering connections across Duke
+
+\
+**Happy with the videos**
+
+# Lessons and Challenges
+
+## 
+
+\
+
+\
 
 -   Time investment and production considerations
+
 -   Balancing production values with learning ideals
+
 -   Aligning subject matter with learning concepts
