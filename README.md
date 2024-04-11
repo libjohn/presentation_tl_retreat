@@ -16,4 +16,6 @@ Following the keynote, we’ll have lightning talks from staff across the librar
 
 I used suggestions about prompt engineering to ply three LLMs:  copilot.microsoft.com ; claude.ai ; gemini.google.com.  Prompt enginnering advice came from the April 2, 2024 episode:  [How Should I Be Using A.I. Right Now?](https://www.nytimes.com/2024/04/02/opinion/ezra-klein-podcast-ethan-mollick.html). summarizing the process the goal is to identify and audience and a role; describe the talk goal, request slide titles, then requrest details for each slide.   Each LLM operated differently.  In the end I used a combination of human composition augmented with selections from each LLM.  You can view my [informal scoring](score_informal.qmd)
 
+The first hybrid draft is found in the _frankenstein_monster_ folder.
+
 
