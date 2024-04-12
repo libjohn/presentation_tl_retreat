@@ -22,8 +22,8 @@ date: today
 format: 
   revealjs:
     #center: true
-    # transition: fade
-    # background-transition: fade
+    transition: fade
+    background-transition: fade
     theme: [moon]
     self-contained: true
     footer:  "[Center for Data & Visualization Sciences](https://library.duke.edu/data/) ● [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
@@ -42,9 +42,9 @@ editor: visual
 **CDVS**
 
 -   Sophia Lafferty-Hess\
-    [Data Management (**Theory**)]{style="font-size: x-large; color: lightgray"}
+    [Data Management (**Theory**)]{style="font-size: x-large; color: #586e75;"}
 -   John Little\
-    [Data Science (**Practice**)]{style="font-size: x-large; color: lightgray"}
+    [Data Science (**Practice**)]{style="font-size: x-large; color: #586e75;"}
 
 ![](images/devil-missing-photo-small.jpg){fig-align="center"}
 :::
@@ -53,13 +53,13 @@ editor: visual
 **LILE (formerly DLI)**
 
 -   Megan Lancaster\
-    [(**Project Manager**; **Sr.** Learning Experience Designer)]{style="font-size: large; color: lightgray"}
+    [(**Project Manager**; **Sr.** Learning Experience Designer)]{style="font-size: large; color: #586e75;"}
 -   Shakiyla Huggins\
-    [(Learning Experience **Designer**)]{style="font-size: large; color: lightgray"}
+    [(Learning Experience **Designer**)]{style="font-size: large; color: #586e75;"}
 -   Tara Kramling\
-    [(Learning Experience **Producer**)]{style="font-size: large; color: lightgray"}
+    [(Learning Experience **Producer**)]{style="font-size: large; color: #586e75;"}
 -   Nick Janes\
-    [(Learning **Media Designer**)]{style="font-size: large; color: lightgray"}
+    [(Learning **Media Designer**)]{style="font-size: large; color: #586e75;"}
 :::
 :::
 
@@ -71,7 +71,7 @@ editor: visual
 -   Script editing
 -   Video planning
 -   Recording
--   Video production [(sound, graphics, editing)]{style="color: lightgray"}
+-   Video production [(sound, graphics, animation)]{style="color: #586e75;"}
 
 <!--# https://mermaid.js.org/syntax/flowchart.html -->
 
@@ -86,10 +86,15 @@ flowchart LR
   C --> D[Recording]:::greybox
   D --> E[Production]:::greybox
   end
-  style box1 fill:#FFFFCC
-  style box2 fill:#FFFFCC
-  linkStyle default stroke: black
-  classDef greybox fill:#ECECEC
+  style A color:black
+  style B color:black
+  style C color:black
+  style D color:black
+  style E color:black 
+  style box1 fill:#FFFFCC,color:black
+  style box2 fill:#FFFFCC,color:black
+  linkStyle default stroke-width:3px,stroke:#2aa198
+  classDef greybox fill:#ECECEC,font-size:14pt
 ```
 
 # The Execution
@@ -99,10 +104,10 @@ flowchart LR
 -   Crafting effective narratives for video content.
 
 -   Sophia Lafferty-Hess and John Little at the helm\
-    [(talent and content)]{style="color: lightgray"}
+    [(talent and content)]{style="font-size: x-large; color: #586e75;"}
 
 -   Shakiyla and Megan: direction, guidance, and goals\
-    [(surfacing innovative learning ideas)]{style="color: lightgray"}
+    [(surfacing innovative learning ideas)]{style="font-size: x-large; color: #586e75;"}
 
 ```{mermaid}
 %%| fig-width: 20
@@ -115,17 +120,26 @@ flowchart LR
   C --> D[Recording]:::greybox
   D --> E[Production]:::greybox
   end
-  style box1 fill:#FFFFCC
-  style box2 fill:#FFFFCC
-  linkStyle default stroke: black
-  classDef highlight fill:#F96
-  classDef greybox fill:#ECECEC
+  style A color:black
+  style B color:black
+  style C color:black
+  style D color:grey
+  style E color:grey
+  style box1 fill:#FFFFCC,color:black
+  style box2 fill:#FFFFCC,color:grey
+  linkStyle default stroke-width:3px,stroke:#2aa198
+  classDef highlight fill:#cb4b16,font-size:14pt
+  classDef greybox fill:#ECECECC,font-size:14pt
 ```
 
 ## Video planing, recording, & production
 
--   Recording and post-production [(Tara and Nick)]{style="color: lightgray"}
--   Outsourced with LILE and Bryan Center Studios
+\
+
+-   Recording and post-production [(Tara and Nick)]{style="font-size: x-large; color: #586e75;"}
+-   Outsourcing via LILE and Bryan Center Studios
+
+\
 
 ```{mermaid}
 %%| fig-width: 20
@@ -138,23 +152,52 @@ flowchart LR
   C --> D[Recording]:::highlight
   D --> E[Production]:::highlight
   end
-  style box1 fill:#FFFFCC
-  style box2 fill:#FFFFCC
-  linkStyle default stroke: black
-  classDef highlight fill:#F96
+  style A color:grey
+  style B color:grey
+  style C color:black
+  style D color:black
+  style E color:black
+  style box1 fill:#FFFFCC,color:grey
+  style box2 fill:#FFFFCC,color:black
+  linkStyle default stroke-width:3px,stroke:#2aa198
+  classDef highlight fill:#cb4b16,font-size:14pt
   classDef greybox fill:#ECECEC
 ```
 
-## Examples
+## <https://duke.is/reproducible>
 
-![Reproducibility](images/01%20What%20Is%20Reproducibility.png){width="200"} ![Project Managment](images/03%20Project%20Management%20Foundations.png){width="200"} ![Version Control](images/04%20Version-control.png){width="200"} ![data archiving and publishing](images/08%20Data%20archiving%20and%20publishing.png){width="200"}
+![](images/yt_playlist.png "YouTube Playlist"){.absolute top="100" left="300" width="500"}
 
-![](images/yt_playlist.png){fig-align="center" width="500"}
+![](images/01%20What%20Is%20Reproducibility.png "Reproducibility"){.absolute top="75" left="50" width="200"} ![](images/03%20Project%20Management%20Foundations.png "Project Managment"){.absolute top="200" left="50" width="200"}
+
+![](images/04%20Version-control.png "Version Control"){.absolute top="325" left="50" width="200"}
+
+![](images/08%20Data%20archiving%20and%20publishing.png "data archiving and publishing"){.absolute top="450" left="50" width="200"}
 
 ## Interactive module development
 
--   An exploration of possibilities (LILE)
--   A valuable experiment in concept alignment
+\
+
+
+\
+
+::: columns
+::: {.column width="80%"}
+An exploration of possibilities (LILE)
+
+\
+A valuable experiment in concept alignment
+:::
+
+::: {.column width="20%"}
+
+{{< bi pc-display-horizontal color=#eee8d5 size=8rem >}}
+
+:::
+
+:::
+
+
 
 # Outcomes and Reflections
 
@@ -164,10 +207,22 @@ flowchart LR
 
 \
 
+::: columns
+::: {.column width="80%"}
 Beyond the norm
 
 \
 Polished resources for learners
+:::
+
+::: {.column width="20%"}
+
+{{< bi gem color=#eee8d5 size=8rem >}}
+
+:::
+
+:::
+
 
 ## Interdivisional cooperation
 
@@ -178,7 +233,13 @@ Polished resources for learners
 Fostering connections across Duke
 
 \
-**Happy with the videos**
+**Happy with the videos**  
+
+\
+
+<center>
+{{< bi emoji-wink color=#eee8d5 size=8rem >}} &nbsp;  &nbsp;  &nbsp; {{< bi arrows-fullscreen color=#eee8d5 size=8rem >}} &nbsp;  &nbsp;  &nbsp; {{< bi emoji-sunglasses color=#eee8d5 size=8rem >}}
+</center>
 
 # Lessons and Challenges
 
@@ -193,3 +254,11 @@ Fostering connections across Duke
 -   Balancing production values with learning ideals
 
 -   Aligning subject matter with learning concepts
+
+\
+
+<center>
+
+{{< bi stars color=#eee8d5 size=8rem >}} &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; {{< bi spellcheck color=#eee8d5 size=8rem >}}
+
+</center>

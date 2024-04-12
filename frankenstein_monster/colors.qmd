@@ -1,0 +1,29 @@
+---
+title: "colors"
+format: 
+  revealjs:
+    #center: true
+    # transition: fade
+    # background-transition: fade
+    theme: [moon]
+---
+
+
+
+
+ [1 #002b36;]{style="font-size: large; color: #002b36;"}
+ [2 #073642;]{style="font-size: large; color: #073642;"}
+ [3 #586e75;]{style="font-size: large; color: #586e75;"}
+ [4 #657b83;]{style="font-size: large; color: #657b83;"}\
+ [5 #839496;]{style="font-size: large; color: #839496;"}
+ [6 #93a1a1;]{style="font-size: large; color: #93a1a1;"}
+ [7 #eee8d5;]{style="font-size: large; color: #eee8d5;"}\
+ [8 #fdf6e3;]{style="font-size: large; color: #fdf6e3;"}
+ [9 #b58900;]{style="font-size: large; color: #b58900;"}
+ [10 #cb4b16;]{style="font-size: large; color: #cb4b16;"}\
+ [11 #dc322f;]{style="font-size: large; color: #dc322f;"}
+ [12 #d33682;]{style="font-size: large; color: #d33682;"}
+ [13 #6c71c4;]{style="font-size: large; color: #6c71c4;"}\
+ [14 #268bd2;]{style="font-size: large; color: #268bd2;"}
+ [15 #2aa198;]{style="font-size: large; color: #2aa198;"}
+ [16 #859900;]{style="font-size: large; color: #859900;"}
