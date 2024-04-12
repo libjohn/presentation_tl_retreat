@@ -126,10 +126,10 @@ flowchart LR
   style D color:grey
   style E color:grey
   style box1 fill:#FFFFCC,color:black
-  style box2 fill:#FFFFCC,color:grey
+  style box2 fill:#073642,color:grey
   linkStyle default stroke-width:3px,stroke:#2aa198
   classDef highlight fill:#cb4b16,font-size:14pt
-  classDef greybox fill:#ECECECC,font-size:14pt
+  classDef greybox fill:#ECECEC,font-size:14pt
 ```
 
 ## Video planing, recording, & production
@@ -157,7 +157,7 @@ flowchart LR
   style C color:black
   style D color:black
   style E color:black
-  style box1 fill:#FFFFCC,color:grey
+  style box1 fill:#073642,color:grey
   style box2 fill:#FFFFCC,color:black
   linkStyle default stroke-width:3px,stroke:#2aa198
   classDef highlight fill:#cb4b16,font-size:14pt
