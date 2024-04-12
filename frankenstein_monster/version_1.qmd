@@ -22,8 +22,8 @@ date: today
 format: 
   revealjs:
     #center: true
-    transition: fade
-    background-transition: fade
+    # transition: fade
+    # background-transition: fade
     theme: [moon]
     self-contained: true
     footer:  "[Center for Data & Visualization Sciences](https://library.duke.edu/data/) ● [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
