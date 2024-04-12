@@ -1,12 +1,13 @@
 ---
 title: "Collaborating on Video Modules"
 subtitle: "Leveraging expertise for engaging learning experiences" 
+
 author: 
   - name: John Little
     orcid: 0000-0002-3600-0972
     affiliation:
-      - name: Duke University Libraries
-        department: Center for Data & Visualization Sciences
+      - name: Center for Data &<br/>Visualization Sciences
+        department: Duke University Libraries
         city: Durham
         state: NC
         country: US
@@ -14,9 +15,8 @@ author:
   - name: Sophia Lafferty-Hess
     orcid: 0000-0002-8343-3279
     affiliation:
-      - name: Duke University Libraries
-        department: Center for Data & Vizualization Sciences  
-institute: "Center for Data & Visualization Sciences"          
+      - name: Center for Data &<br/>Vizualization Sciences
+        department: Duke University Libraries
 date: today
 
 format: 
