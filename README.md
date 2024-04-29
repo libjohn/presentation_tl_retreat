@@ -18,4 +18,8 @@ I used suggestions about prompt engineering to ply three LLMs:  copilot.microsof
 
 The first hybrid draft is found in the _frankenstein_monster_ folder.
 
-
+The final draft is found in `frankenstein_monster/video_module_creation.html`.  Public URLs include
+- https://people.duke.edu/~jrl/video_collaboration_lile/#/title-slide
+- https://duke.is/video-collaboration
+- slug for confluence?  Nope.  Can upload a PDF to confluence.  But, basically, why.  The fidelity is horrible after converting qmd rendwerd HTML to PDF so that I can upload manually to confluence?  Basically, what a silly process that is!
+(produced from `frankenstein_monster/video_module_creation.qmd` with `frankenstein_monster/video_collaboration.pdf also available.`).
