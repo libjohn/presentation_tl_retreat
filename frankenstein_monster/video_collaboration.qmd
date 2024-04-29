@@ -1,0 +1,248 @@
+---
+title: "Collaborating on Video Modules"
+subtitle: "Leveraging expertise for engaging learning experiences" 
+
+author: 
+  - name: John Little
+    orcid: 0000-0002-3600-0972
+    affiliation:
+      - name: Center for Data &<br/>Visualization Sciences
+        department: Duke University Libraries
+        city: Durham
+        state: NC
+        country: US
+        url:  https://library.duke.edu/data
+  - name: Sophia Lafferty-Hess
+    orcid: 0000-0002-8343-3279
+    affiliation:
+      - name: Center for Data &<br/>Vizualization Sciences
+        department: Duke University Libraries
+date: "May 1, 2024"
+
+format: 
+  revealjs:
+    #center: true
+    # transition: fade
+    # background-transition: fade
+    theme: [moon]
+    self-contained: true
+    footer:  "[Center for Data & Visualization Sciences](https://library.duke.edu/data/) ● [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+    logo: images/cdvs_logo.png
+license: "CC BY"
+
+editor: visual
+---
+
+# The team
+
+## The people behind the project
+
+::: columns
+::: {.column width="50%"}
+**CDVS**
+
+-   Sophia Lafferty-Hess\
+    [Data Management (**Theory**)]{style="font-size: x-large; color: #586e75;"}
+-   John Little\
+    [Data Science (**Practice**)]{style="font-size: x-large; color: #586e75;"}
+
+![](images/devil-missing-photo-small.jpg){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+**LILE (formerly DLI)**
+
+-   Megan Lancaster\
+    [(**Project Manager**; **Sr.** Learning Experience Designer)]{style="font-size: large; color: #586e75;"}
+-   Shakiyla Huggins\
+    [(Learning Experience **Designer**)]{style="font-size: large; color: #586e75;"}
+-   Tara Kramling\
+    [(Learning Experience **Producer**)]{style="font-size: large; color: #586e75;"}
+-   Nick Janes\
+    [(Learning **Media Designer**)]{style="font-size: large; color: #586e75;"}
+:::
+:::
+
+# The Process
+
+## 
+
+-   Script writing
+-   Script editing
+-   Video planning
+-   Recording
+-   Video production [(sound, graphics, animation)]{style="color: #586e75;"}
+
+<!--# https://mermaid.js.org/syntax/flowchart.html -->
+
+```{mermaid}
+%%| fig-width: 20
+flowchart LR
+  subgraph box1[Iterative]
+  A[Script writing]:::greybox <--> B[Script editing]:::greybox
+  B <--> C[Video planning]:::greybox
+  end
+  subgraph box2[Outsource]
+  C --> D[Recording]:::greybox
+  D --> E[Production]:::greybox
+  end
+  style A color:black
+  style B color:black
+  style C color:black
+  style D color:black
+  style E color:black 
+  style box1 fill:#FFFFCC,color:black
+  style box2 fill:#FFFFCC,color:black
+  linkStyle default stroke-width:3px,stroke:#2aa198
+  classDef greybox fill:#ECECEC,font-size:14pt
+```
+
+# The Execution
+
+## Script writing and editing
+
+-   Crafting effective narratives for video content.
+
+-   Sophia Lafferty-Hess and John Little at the helm\
+    [(talent and content)]{style="font-size: x-large; color: #586e75;"}
+
+-   Shakiyla and Megan: direction, guidance, and goals\
+    [(surfacing innovative learning ideas)]{style="font-size: x-large; color: #586e75;"}
+
+```{mermaid}
+%%| fig-width: 20
+flowchart LR
+  subgraph box1[Iterative]
+  A[Script writing]:::highlight <--> B[Script editing]:::highlight
+  B <--> C[Video planning]:::greybox
+  end
+  subgraph box2[Outsource]
+  C --> D[Recording]:::greybox
+  D --> E[Production]:::greybox
+  end
+  style A color:black
+  style B color:black
+  style C color:black
+  style D color:grey
+  style E color:grey
+  style box1 fill:#FFFFCC,color:black
+  style box2 fill:#073642,color:grey
+  linkStyle default stroke-width:3px,stroke:#2aa198
+  classDef highlight fill:#cb4b16,font-size:14pt
+  classDef greybox fill:#ECECEC,font-size:14pt
+```
+
+## Video planning, recording, & production
+
+\
+
+-   Recording and post-production [(Tara and Nick)]{style="font-size: x-large; color: #586e75;"}
+-   Outsourcing via LILE and Bryan Center Studios
+
+\
+
+```{mermaid}
+%%| fig-width: 20
+flowchart LR
+  subgraph box1[Iterative]
+  A[Script writing]:::greybox <--> B[Script editing]:::greybox
+  B <--> C[Video planning]:::highlight
+  end
+  subgraph box2[Outsource]
+  C --> D[Recording]:::highlight
+  D --> E[Production]:::highlight
+  end
+  style A color:grey
+  style B color:grey
+  style C color:black
+  style D color:black
+  style E color:black
+  style box1 fill:#073642,color:grey
+  style box2 fill:#FFFFCC,color:black
+  linkStyle default stroke-width:3px,stroke:#2aa198
+  classDef highlight fill:#cb4b16,font-size:14pt
+  classDef greybox fill:#ECECEC
+```
+
+## <https://duke.is/reproducible>
+
+![](images/yt_playlist.png "YouTube Playlist"){.absolute top="100" left="300" width="500"}
+
+![](images/01%20What%20Is%20Reproducibility.png "Reproducibility"){.absolute top="75" left="50" width="200"} ![](images/03%20Project%20Management%20Foundations.png "Project Managment"){.absolute top="200" left="50" width="200"}
+
+![](images/04%20Version-control.png "Version Control"){.absolute top="325" left="50" width="200"}
+
+![](images/08%20Data%20archiving%20and%20publishing.png "data archiving and publishing"){.absolute top="450" left="50" width="200"}
+
+## Interactive module development
+
+\
+
+\
+
+::: columns
+::: {.column width="80%"}
+An exploration of possibilities (LILE)
+
+\
+A valuable experiment in concept alignment
+:::
+
+::: {.column width="20%"}
+{{< bi pc-display-horizontal color=#eee8d5 size=8rem >}}
+:::
+:::
+
+# Outcomes and Reflections
+
+## High production values
+
+\
+
+\
+
+::: columns
+::: {.column width="80%"}
+Beyond the norm
+
+\
+Polished resources for learners
+:::
+
+::: {.column width="20%"}
+{{< bi gem color=#eee8d5 size=8rem >}}
+:::
+:::
+
+## Interdivisional cooperation
+
+\
+
+\
+
+Fostering connections across Duke
+
+\
+**Happy with the videos**
+
+\
+
+<center>{{< bi emoji-wink color=#eee8d5 size=8rem >}}       {{< bi arrows-fullscreen color=#eee8d5 size=8rem >}}       {{< bi emoji-sunglasses color=#eee8d5 size=8rem >}}</center>
+
+# Lessons and Challenges
+
+## 
+
+\
+
+\
+
+-   Time investment and production considerations
+
+-   Balancing production values with learning ideals
+
+-   Aligning subject matter with learning concepts
+
+\
+
+<center>{{< bi stars color=#eee8d5 size=8rem >}}             {{< bi spellcheck color=#eee8d5 size=8rem >}}</center>

@@ -132,7 +132,7 @@ flowchart LR
   classDef greybox fill:#ECECEC,font-size:14pt
 ```
 
-## Video planing, recording, & production
+## Video planning, recording, & production
 
 \
 
